@@ -1,4 +1,4 @@
-# PUFFI List - App #
+# PUFFI - APP #
 
 
 Single Page Application (SPA) construida con [React](https://es.reactjs.org/) versión 18.
