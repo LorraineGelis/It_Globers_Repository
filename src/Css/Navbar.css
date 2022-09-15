@@ -1,0 +1,101 @@
+/*Importacion tipo de letra*/
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+/*Omitiendo los estilos de body por defecto*/
+
+*body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Otorgando ipo de letra a todo el html*/
+
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+/* Estilos al logo PUFI nav Bar*/
+
+.img_Logo {
+    height: 100px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+
+/*Estilos al menu del navBar*/
+
+.menu_Products {
+    color: #ffffff;
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu_Products li {
+    border-right: 1px solid rgba(254, 254, 254, 0.4);
+    display: block;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.menu_Products li a {
+    margin-right: 10px;
+}
+
+.navBar {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_navBar {
+    display: block;
+    margin-left: 20px;
+    text-align: center;
+    width: 48px;
+}
+
+.product_navBar:hover {
+    color: #816bda;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.user {
+    align-items: center;
+    border: 0;
+    color: #ffffff;
+    display: flex;
+    font-size: 11px;
+    padding-top: 30px;
+}
+
+.user p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user p:hover {
+    color: #816bda;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #816bda;
+    cursor: pointer;
+}
+
+.line_vertical {
+    border-right: 1px solid rgba(254, 254, 254, 0.4);
+    margin-right: 15px;
+    padding: 12px;
+}

@@ -1,0 +1,42 @@
+/*Estilos Generales de titulos*/
+
+.title_socialNetwork {
+    bottom: 451px;
+    position: relative;
+    text-align: center;
+}
+
+.title_socialNetwork a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.title_h4 {
+    color: #8C8C94;
+}
+
+.title_suscribete {
+    margin-top: 51px;
+    text-align: center;
+}
+
+.title_Instagram {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-top: -401px;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+
+/*Estilos Form*/
+
+.form input {
+    height: 40px;
+    margin-left: 450px;
+    width: 600px;
+}
+
+.form p {
+    margin-left: 440px;
+}

@@ -1,0 +1,13 @@
+/*Estilos cards*/
+
+.cards {
+    height: auto;
+    margin-bottom: -25px;
+    margin-left: 0;
+    width: 100px;
+}
+
+.cards img {
+    height: 300px;
+    width: 300px;
+}

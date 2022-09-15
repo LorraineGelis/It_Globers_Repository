@@ -1,0 +1,105 @@
+/*Estilos Section de productos*/
+
+.products {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;
+    margin-bottom: 500px;
+}
+
+
+/*Estilos Section primera imagen de umbrella*/
+
+.primera_image_umbrella {
+    background-blend-mode: darken;
+    background-image: url('../assets/Img_productos/pufi_rain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.primera_image_umbrella:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+}
+
+
+/*Estilos Section de  button*/
+
+.buton_umbrella button {
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    height: 50px;
+    margin-left: 41%;
+    margin-top: 51%;
+    text-align: center;
+    width: 150px;
+}
+
+.buton_umbrella button:hover {
+    background-color: #079cf398;
+    box-shadow: 0 0 4px #079cf35b, 0 0 40px #079cf398, 0 0 80px #816bda;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/*Estilos Section imagenes*/
+
+.pufi {
+    height: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pufi img {
+    width: 31%;
+}
+
+.image {
+    height: 801px;
+    width: 100%;
+}
+
+.image:hover {
+    cursor: pointer;
+    filter: brightness(51%);
+}
+
+hr {
+    width: 5%;
+}
+
+.img_verMas {
+    align-items: center;
+    display: flex;
+    margin-left: 46%;
+    text-align: center;
+}
+
+.img_verMas p {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icono_triangulo {
+    border: 20px solid transparent;
+    border-left-color: #ffffff;
+    bottom: 100px;
+    height: 0;
+    left: 750px;
+    position: relative;
+    width: 0;
+    z-index: 998;
+}
+
+.icono_mayorQue {
+    border: 11px solid transparent;
+    border-right-color: #ffffff;
+    bottom: 100px;
+    height: 0;
+    left: -20px;
+    position: relative;
+    width: 0;
+    z-index: 999;
+}

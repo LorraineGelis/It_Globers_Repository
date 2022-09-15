@@ -1,0 +1,14 @@
+/*Estilos Icono*/
+
+.icons {
+    cursor: pointer;
+    left: -30px;
+    position: relative;
+}
+
+
+/*Estilos Parrafo*/
+
+.parrafo_form {
+    color: #ff0000;
+}

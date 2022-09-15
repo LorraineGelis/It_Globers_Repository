@@ -1,0 +1,15 @@
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 52px;
+    margin-right: 50px;
+}
+
+.copyright img {
+    height: 40px;
+    width: 70px;
+}
+
+.copyright p {
+    color: #8C8C94;
+}

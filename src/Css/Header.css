@@ -1,0 +1,48 @@
+/* EStilos generales Slider*/
+
+.slider_background {
+    background-attachment: fixed;
+    background-image: url('../assets/Img_slider/slider.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+
+/*Estilos main*/
+
+main {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 1%;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.317) 2px 2px 2px;
+}
+
+
+/*Estilos Btn*/
+
+.butonDiv {
+    margin-top: 168px;
+    text-align: center;
+}
+
+.buton {
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    height: 62px;
+    margin: 35px;
+    margin-right: 18px;
+    padding: 18px;
+    width: 135px;
+}
+
+.buton:hover {
+    background-color: #079cf398;
+    box-shadow: 0 0 5px #079cf35b, 0 0 40px #079cf398, 0 0 80px #816bda;
+    cursor: pointer;
+    transition: 0.5s;
+}
